@@ -1,0 +1,230 @@
+:root {
+    --custom-blue-01: #30a0e0;
+    --custom-blue-02: #006bb9;
+
+    --custom-yellow-01: #ffc973;
+    --custom-yellow-02: #FCC772;
+    --custom-yellow-03: #d3c03d78;
+    --custom-yellow-04: #ffc973b7;
+    --custom-yellow-05: #ffe3b3;
+
+    --custom-purple-02: #d572fc;
+    --custom-purple-03: #b03dd378;
+
+    --custom-green-02: #4ba54b;
+    --custom-green-03: #30972c78;
+
+    --custom-gray-01: #939393;
+}
+
+
+* {
+    /* font-family: 'Noto Naskh Arabic', serif; */
+    font-family: 'Almarai', sans-serif;
+}
+
+body,
+.card,
+nav {
+    transition: background .3s, color .3s;
+}
+
+/* .bg-navbar {
+    background-color: #fff !important;
+} */
+
+.btn-custom-blue {
+    background-color: var(--custom-blue-01) !important;
+    color: #fff !important;
+}
+
+.btn-custom-blue:hover {
+    background-color: var(--custom-blue-02) !important;
+}
+
+hr {
+    opacity: 0.09 !important;
+}
+
+.like-icon:hover,
+.comment-icon:hover {
+    color: var(--custom-blue-01) !important;
+}
+
+
+
+
+
+.max-line-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+ul.navbar-nav li.active .nav-link::after {
+    content: '';
+    position: absolute;
+    right: 24px;
+    bottom: 0;
+    border: 3px solid var(--custom-yellow-01);
+    border-radius: 50px;
+    width: 28px;
+    background-color: var(--custom-yellow-01);
+    color: var(--custom-yellow-01);
+}
+
+
+
+
+
+
+
+
+
+/* .sidebar-news-section .sidebar-news-header {
+    padding: 3px 10px;
+    font-weight: bold;
+} */
+.sidebar-news-section .sidebar-news-overlay {
+    display: none;
+}
+
+.sidebar-news-section .sidebar-news-overlay-title:hover .sidebar-news-overlay {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all .2s ease;
+}
+
+
+.sidebar-news-section-yellow .sidebar-news-header {
+    border-right: 7px solid var(--custom-yellow-02);
+}
+
+.sidebar-news-section-yellow .sidebar-news-tag {
+    background-color: var(--custom-yellow-02) !important;
+}
+
+.sidebar-news-section-yellow .sidebar-news-overlay-title:hover .sidebar-news-overlay-yellow {
+    background-color: var(--custom-yellow-03);
+}
+
+
+.sidebar-news-section-purple .sidebar-news-header {
+    border-right: 7px solid var(--custom-purple-02);
+}
+
+.sidebar-news-section-purple .sidebar-news-tag {
+    background-color: var(--custom-purple-02) !important;
+}
+
+.sidebar-news-section-purple .sidebar-news-overlay-title:hover .sidebar-news-overlay-purple {
+    background-color: var(--custom-purple-03);
+}
+
+
+.sidebar-news-section-green .sidebar-news-header {
+    border-right: 7px solid var(--custom-green-02);
+}
+
+.sidebar-news-section-green .sidebar-news-tag {
+    background-color: var(--custom-green-02) !important;
+}
+
+.sidebar-news-section-green .sidebar-news-overlay-title:hover .sidebar-news-overlay-green {
+    background-color: var(--custom-green-03);
+}
+
+
+
+
+
+
+.text-gray {
+    color: var(--custom-gray-01) !important;
+}
+
+.bg-main {
+    background-color: var(--custom-blue-01) !important;
+}
+
+.text-main {
+    color: var(--custom-blue-01) !important;
+}
+
+.text-main:hover {
+    color: var(--custom-blue-02) !important;
+}
+
+.bg-third {
+    background-color: var(--custom-yellow-01) !important;
+}
+
+.text-third {
+    color: var(--custom-yellow-01) !important;
+}
+
+.bg-forth {
+    background-color: var(--custom-yellow-05) !important;
+}
+
+.text-forth {
+    color: var(--custom-yellow-05) !important;
+}
+
+/* .title-news:hover {
+    color: var(--custom-blue-02) !important;
+}*/
+
+
+
+
+
+
+/* Bootstrap Custom Classes  */
+.lh-base-18 {
+    line-height: 1.8 !important;
+}
+
+.fs-45 {
+    font-size: 1.35rem !important;
+}
+
+.fs-17px {
+    font-size: 17px;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+
+.dropdown-menu {
+    min-width: 0rem !important;
+    padding: 0rem 0 !important;
+}
+.dropdown-divider {
+    margin: 0 !important;
+}
+
+
+.dropdown-menu-nav {
+    border-radius: 0px !important;
+}
+.dropdown-nav:hover .dropdown-menu-nav {
+    display: block;
+}
+.dropdown-menu-nav .dropdown-item {
+    min-width: 150px !important;
+    padding: 0.45rem 0.45rem !important;
+}
+
